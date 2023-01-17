@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third_Fragment"
+    android:background="#8A88C1">
+
+    <Button
+        android:id="@+id/Notes"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:insetLeft="150dp"
+        android:insetTop="200dp"
+        android:insetRight="50dp"
+        android:text="Add to Notes"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="469dp"
+        android:layout_height="166dp"
+        android:ems="10"
+        android:hint="Notes"
+        android:inputType="textPersonName"
+        android:background="#C2BACF"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="427dp"
+        android:layout_height="50dp"
+        android:text="Adding to notes...."
+        android:background="#F3E1E5"/>
+
+</FrameLayout>
